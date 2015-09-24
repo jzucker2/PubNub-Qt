@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+workspace 'PubNub.xcworkspace'
+xcodeproj 'PubNubLibrary.xcodeproj'
+
+target 'PubNubLibrary', :exclusive => true do
+  platform :ios, '8.0'
+  pod "PubNub", "~>4.0"
+end
