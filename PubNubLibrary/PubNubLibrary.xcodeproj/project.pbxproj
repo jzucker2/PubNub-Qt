@@ -269,6 +269,7 @@
 			baseConfigurationReference = 22E3F9513026DB614174AF66 /* Pods-PubNubLibrary.debug.xcconfig */;
 			buildSettings = {
 				GCC_INPUT_FILETYPE = automatic;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

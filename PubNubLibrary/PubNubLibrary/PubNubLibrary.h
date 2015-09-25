@@ -12,4 +12,8 @@
 #include <stdio.h>
 //#include <Foundation.h>
 
+int add(int a, int b);
+
+
+
 #endif /* PubNubLibrary_hpp */

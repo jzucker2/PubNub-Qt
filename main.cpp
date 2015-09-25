@@ -42,11 +42,15 @@
 #include <QtQml/QQmlApplicationEngine>
 #include <QtGui/QFont>
 #include <QtGui/QFontDatabase>
+#include <QDebug>
 #include <PubNubLibrary.h>
 
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
+    qDebug() << "Debug Message";
+    qDebug ("message %d", add(7, 8));
+    add(7, 8);
 
     QFontDatabase::addApplicationFont(":/fonts/DejaVuSans.ttf");
     app.setFont(QFont("DejaVu Sans"));
