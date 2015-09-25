@@ -1,6 +1,7 @@
 TEMPLATE = app
 TARGET = dashboard
 INCLUDEPATH += .
+INCLUDEPATH += PubNubLibrary/PubNubLibrary
 QT += quick
 
 SOURCES += \

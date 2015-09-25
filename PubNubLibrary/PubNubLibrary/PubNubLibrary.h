@@ -1,13 +1,15 @@
 //
-//  PubNubLibrary.h
+//  PubNubLibrary.hpp
 //  PubNubLibrary
 //
-//  Created by Jordan Zucker on 9/24/15.
+//  Created by Jordan Zucker on 9/25/15.
 //  Copyright © 2015 pubnub. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#ifndef PubNubLibrary_H
+#define PubNubLibrary_H
 
-@interface PubNubLibrary : NSObject
+#include <stdio.h>
+//#include <Foundation.h>
 
-@end
+#endif /* PubNubLibrary_hpp */

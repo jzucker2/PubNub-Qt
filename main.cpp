@@ -42,6 +42,7 @@
 #include <QtQml/QQmlApplicationEngine>
 #include <QtGui/QFont>
 #include <QtGui/QFontDatabase>
+#include <PubNubLibrary.h>
 
 int main(int argc, char *argv[])
 {
